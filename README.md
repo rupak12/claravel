@@ -1,4 +1,4 @@
-# Catalog API
+# Catalog API(Developed By Rupak Manna and this readme file creation time i will take help with chatgpt for better documentation)
 
 A RESTful API built with Laravel for managing an e-commerce catalog with categories and items. The API provides endpoints for user authentication, category listing, and item management with filtering, sorting, and pagination capabilities.
 
@@ -13,8 +13,8 @@ A RESTful API built with Laravel for managing an e-commerce catalog with categor
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd project-name
+   git clone https://github.com/rupak12/claravel.git
+   cd claravel
    ```
 
 2. Install PHP dependencies:
@@ -151,6 +151,3 @@ The project follows PSR-12 coding standards. To check coding style:
 ## Security
 All API endpoints for managing items are protected with Laravel Sanctum authentication. Users must register and obtain an API token to access protected endpoints.
 
-## License
-
-This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
